@@ -16,7 +16,7 @@ const morgan = require("morgan");
 const path = require("path");
 
 // Auth Middelware
-const auth = require("./middelware/auth");
+const auth = require("./middleware/auth");
 
 // create a write stream (in append mode)
 const accessLogStream = fs.createWriteStream(
